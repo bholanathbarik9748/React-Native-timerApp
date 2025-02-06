@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "app/screens/HomeScreen.jsx", "app/screens/HistoryScreen.jsx", "app/screens/AddTimerScreen.jsx", "app/navigation/AppNavigator.jsx"  ]
 }

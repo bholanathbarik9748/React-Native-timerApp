@@ -1,0 +1,108 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        padding: 20,
+        backgroundColor: "#f9f9f9",
+    },
+    btnContainer: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginBottom: 24,
+    },
+    categoryContainer: {
+        marginVertical: 14,
+        borderRadius: 12,
+        backgroundColor: "#ffffff",
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 3 },
+        shadowOpacity: 0.15,
+        shadowRadius: 5,
+        elevation: 4,
+    },
+    categoryHeaderContainer: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: 16,
+        backgroundColor: "#ff6347",
+        borderTopLeftRadius: 12,
+        borderTopRightRadius: 12,
+    },
+    categoryHeader: {
+        fontSize: 20,
+        fontWeight: "600",
+        color: "#ffffff",
+    },
+    arrowIcon: {
+        marginLeft: 8,
+    },
+    timerCard: {
+        padding: 18,
+        borderBottomWidth: 1,
+        borderBottomColor: "#eeeeee",
+        backgroundColor: "#ffffff",
+        borderRadius: 8,
+        marginVertical: 8,
+    },
+    timerName: {
+        fontSize: 17,
+        fontWeight: "600",
+        color: "#333",
+    },
+    timerDetails: {
+        fontSize: 15,
+        color: "#555",
+        marginVertical: 6,
+    },
+    timerStatus: {
+        fontSize: 15,
+        color: "#ff6347",
+        fontWeight: "bold",
+        marginBottom: 12,
+    },
+    timerControls: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginTop: 14,
+    },
+    button: {
+        paddingVertical: 10,
+        paddingHorizontal: 18,
+        backgroundColor: "#ff6347",
+        borderRadius: 8,
+        alignItems: "center",
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.15,
+        shadowRadius: 4,
+    },
+    buttonText: {
+        fontSize: 15,
+        fontWeight: "bold",
+        color: "#ffffff",
+    },
+    addTimerButton: {
+        backgroundColor: "#ff6347",
+        borderRadius: 8,
+        padding: 14,
+        alignItems: "center",
+        marginVertical: 16,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 3 },
+        shadowOpacity: 0.15,
+        shadowRadius: 4,
+        elevation: 4,
+    },
+    addTimerButtonText: {
+        fontSize: 16,
+        fontWeight: "bold",
+        color: "#ffffff",
+    },
+    progressBar: {
+        height: 10,
+        backgroundColor: "#4caf50",
+        borderRadius: 5,
+    },
+});
